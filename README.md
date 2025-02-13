@@ -10,12 +10,16 @@ sudo nginx -c /etc/nginx/nginx.conf
 sudo nginx -t -c /etc/nginx/nginx.conf
 ```
 
-## Ожидаемый вывод
+<details>
+
+<summary>Ожидаемый вывод</summary>
 
 ```bash
 nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
 nginx: configuration file /etc/nginx/nginx.conf test is successful
 ```
+    
+</details>
 
 # Остановка сервера
 
