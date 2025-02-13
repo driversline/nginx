@@ -1,4 +1,4 @@
-# Запуск сервера (С указанием пути)
+# Запуск
 
 ```bash
 sudo nginx -c /etc/nginx/nginx.conf
