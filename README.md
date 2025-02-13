@@ -21,6 +21,12 @@ nginx: configuration file /etc/nginx/nginx.conf test is successful
     
 </details>
 
+# Перезапуск
+
+```bash
+sudo nginx -s reload -c /etc/nginx/nginx.conf
+```
+
 # Остановка сервера
 
 ```bash
