@@ -19,7 +19,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const continentCodeElement = document.getElementById('continent_code');
     const countryCallingCodeElement = document.getElementById('country_calling_code');
     const currencyElement = document.getElementById('currency');
-    const languagesElement = document.getElementById('languages');
 
     axios.get('https://ipapi.co/json/')
         .then(response => {
@@ -40,7 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
             continentCodeElement.textContent = response.data.continent_code;
             countryCallingCodeElement.textContent = response.data.country_calling_code;
             currencyElement.textContent = response.data.currency;
-            languagesElement.textContent = response.data.languages;
         })
         .catch(error => {
             ipElement.textContent = 'Error fetching IP';
@@ -60,7 +58,6 @@ document.addEventListener('DOMContentLoaded', () => {
             continentCodeElement.textContent = 'Error fetching continent code';
             countryCallingCodeElement.textContent = 'Error fetching country calling code';
             currencyElement.textContent = 'Error fetching currency';
-            languagesElement.textContent = 'Error fetching languages';
             console.error(error);
         });
 });
