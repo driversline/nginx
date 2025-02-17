@@ -1,1 +1,1 @@
-[Russian](https://github.com/driversline/nginx/blob/main/ip/docs/Russian.md) - [English](https://github.com/driversline/nginx/blob/main/ip/docs/English.md)
+[Русский](https://github.com/driversline/docs/blob/main/nginx/ip/docs/Russian.md) - [English](https://github.com/driversline/docs/blob/main/nginx/ip/docs/English.md)
