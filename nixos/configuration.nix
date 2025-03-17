@@ -1,3 +1,3 @@
 environment.systemPackages = [
-  pkgs.nginx
+  nginx
 ];
